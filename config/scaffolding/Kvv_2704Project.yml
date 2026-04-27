@@ -7,6 +7,28 @@ packages:
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
+- name: SIQACloudStreamsTests
+  gitServerName: MJANGit
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
+services:
+- serviceName: project.kvv_2704.integrations:refdaf
+  packages:
+  - name: Kvv_2704Project
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.17
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+- serviceName: project.kvv_2704.referencedata:ref1
+  packages:
+  - name: Kvv_2704Project
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.17
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 configurationVariables:
   jdbcfunc.SAPTxStore.failFastMode: false
   jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
