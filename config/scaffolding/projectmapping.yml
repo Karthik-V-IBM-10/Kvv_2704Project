@@ -1,0 +1,9 @@
+version: "1.0"
+projectName: Kvv_2704Project
+runtimes:
+- runtimeAlias: kvv_2704
+  assets:
+  - name: fld_131724708_stage00.projects.fl4e98033cb6814632a4880ac4dc6310be.integrations:sf
+    type: flow
+    stepId: /0
+    reference: fld_131724708_stage00.projects.fl4e98033cb6814632a4880ac4dc6310be.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
